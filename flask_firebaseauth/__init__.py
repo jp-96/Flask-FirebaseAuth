@@ -54,6 +54,7 @@ class FirebaseAuth:
         self.max_age = 0
         self.cached_at = 0
         self.lock = Lock()
+        self.language_code = 'en' # https://github.com/firebase/firebaseui-web/blob/master/LANGUAGES.md
         if app is not None:
             self.init_app(app)
 

@@ -2,5 +2,5 @@ __pycache__/
 /venv
 /.vscode
 app.yaml
-main.py
+app.py
 .gcloudignore

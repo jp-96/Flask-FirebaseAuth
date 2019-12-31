@@ -1,3 +1,4 @@
+v0.1.1, 2019-12-31 -- Upgarade js and css, multi languages.
 v0.1.0, 2019-11-04 -- Initial release, as Flask-FirebaseAuth
 v1.7.1, 2019-10-27 -- Fork https://github.com/klokantech/flask-firebase
 v1.7, 2018-05-15 -- Allow setting of auth domain.

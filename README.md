@@ -31,9 +31,9 @@ $pip install git+https://github.com/jp-96/Flask-FirebaseAuth.git
 
 ## Sample code
 
-filename:main.py
+filename:app.py
 
-``` python:main.py
+``` python:app.py
 # coding: utf-8
 
 from flask import Flask, request, redirect, Response
@@ -101,6 +101,7 @@ def request_loader(request):
 
 @login_manager.unauthorized_handler
 def authentication_required():
+    auth.language_code = 'ja' # https://github.com/firebase/firebaseui-web/blob/master/LANGUAGES.md
     return redirect(auth.url_for('widget', mode='select', next=request.url))
 
 @app.route('/')
