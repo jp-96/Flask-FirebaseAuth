@@ -31,9 +31,9 @@ $pip install git+https://github.com/jp-96/Flask-FirebaseAuth.git
 
 ## Sample code
 
-filename:main.py
+filename:app.py
 
-``` python:main.py
+``` python:app.py
 # coding: utf-8
 
 from flask import Flask, request, redirect, Response
